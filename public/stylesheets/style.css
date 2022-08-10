@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 20vh;
+  background-color: #231010;
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+  list-style: none;
+}
+
+.nav-bar li {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+  gap: 2rem;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: white;
+}
+
+.company-name {
+  width: 300px;
+  border-radius: 10px;
+  background-color: #d9ead3;
+  box-shadow: 10px 10px #a7a7a7;
+  margin: 10px 20px;
+}
+
+.company-name h1 {
+  font-size: 2rem;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.container {
+  margin: 20px auto;
+  border: 3px solid #231010;
+  width: 80%;
+}
+
+.primary {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #231010;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.content {
+  padding: 10px;
+}
