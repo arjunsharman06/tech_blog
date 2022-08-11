@@ -38,6 +38,7 @@ router.get('/:id', (req, res) => {
 router.post('/', (req, res) => {
   Post.create({
     title: req.body.title,
+    content: req.body.content,
   })
     .then((dbPostData) => res.json(dbPostData))
     .catch((err) => {
